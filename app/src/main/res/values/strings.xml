@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">app</string>
+    <string name="main_helloWorldText">Hello World, how are you doing?</string>
+    <string name="main_ClickMeButton">CLICK ME!</string>
+    <string name="main_ResetButton">Reset</string>
+    <string name="main_ReverseButton">Reverse</string>
+    <string name="main_NormalButton">NORMAL</string>
+    <string name="main_BigButton">BIG</string>
+    <string name="main_IncrementSizeText">Increment size</string>
+    <string name="main_Counter">0</string>
+</resources>
