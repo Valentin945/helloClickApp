@@ -7,5 +7,5 @@
     <string name="main_NormalButton">NORMAL</string>
     <string name="main_BigButton">BIG</string>
     <string name="main_IncrementSizeText">Increment size</string>
-    <string name="main_Counter">0</string>
+    <string name="main_Counter">-0</string>
 </resources>

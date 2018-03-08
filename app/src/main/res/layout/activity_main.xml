@@ -60,7 +60,9 @@
         android:layout_height="wrap_content"
         android:background="@color/red"
         app:layout_constraintTop_toBottomOf="@id/reverseButton"
-        android:textDirection="rtl"
+        android:textDirection="ltr"
+        android:gravity="end"
+        android:paddingRight="5dp"
         app:layout_constraintLeft_toRightOf="parent"
         app:layout_constraintRight_toLeftOf="parent"
 
@@ -99,7 +101,10 @@
         android:textSize="18sp"
         android:paddingLeft="6dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/normalButtonLayout" />
+        app:layout_constraintTop_toTopOf="@id/normalButtonLayout"
+        app:layout_constraintBottom_toBottomOf="@id/bigButtonLayout"
+        app:layout_constraintVertical_bias="0.6"
+        />
 
 
     <LinearLayout
